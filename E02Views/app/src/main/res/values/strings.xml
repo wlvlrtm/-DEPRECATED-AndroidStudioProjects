@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">E02Veiws</string>
+    <string name="action_signUp">회원가입</string>
+    <string name="action_memo">메모장</string>
+    <string name="LoginId">로그인 아이디</string>
+    <string name="Input_LoginId">로그인 아이디를 입력하세요.</string>
+    <string name="Password">비밀번호</string>
+    <string name="Input_Password">비밀번호를 입력하세요.</string>
+    <string name="email">이메일</string>
+    <string name="Input_email">이메일 주소를 입력하세요.</string>
+    <string name="password2">비밀번호 확인</string>
+    <string name="Input_Password2">비밀번호를 한 번 더 입력하세요.</string>
+    <string name="SignUP">회원가입</string>
+</resources>
