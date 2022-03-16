@@ -1,6 +1,8 @@
 package com.example.e02veiws;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,13 +26,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
+
         if (id == R.id.action_signUp) {
-            Toast.makeText(this, "회원가입 메뉴 클릭", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this, SignUpActivity.class);
+            startActivity(intent);  // SignUpActivity Call
             return true;
-        } else if (id == R.id.action_memo) {
+        }
+        else if (id == R.id.action_memo) {
             Toast.makeText(this, "메모장 메뉴 클릭", Toast.LENGTH_SHORT).show();
             return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
 }
