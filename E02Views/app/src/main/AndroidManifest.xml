@@ -10,8 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.E02Veiws">
         <activity
+            android:name=".MemoActivity"
+            android:exported="false"
+            android:label="@string/action_memo" />
+        <activity
             android:name=".SignUpActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/action_signUp" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
