@@ -1,6 +1,8 @@
 package com.example.e02veiws;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -53,6 +55,9 @@ public class SignUpActivity extends AppCompatActivity {
                 if (SignUpActivity.this.isClear) {
                     String msg = ("회원가입 성공: " + loginId + " " + email);
                     Toast.makeText(SignUpActivity.this, msg, Toast.LENGTH_LONG).show(); // Toast Msg
+
+                    Intent intent = new Intent(SignUpActivity.this, MemoActivity.class);    // MemoActivity Call
+                    startActivity(intent);
                 }
             }
         };

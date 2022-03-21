@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         else if (id == R.id.action_memo) {
-            Toast.makeText(this, "메모장 메뉴 클릭", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this, MemoActivity.class);
+            startActivity(intent);
             return true;
         }
 
