@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.E02Veiws">
         <activity
+            android:name=".ButtonsActivity"
+            android:exported="false"
+            android:label="@string/action_buttons" />
+        <activity
             android:name=".MemoActivity"
             android:exported="false"
             android:label="@string/action_memo" />

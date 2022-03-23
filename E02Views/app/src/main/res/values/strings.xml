@@ -2,6 +2,7 @@
     <string name="app_name">E02Veiws</string>
     <string name="action_signUp">회원가입</string>
     <string name="action_memo">메모장</string>
+    <string name="action_buttons">버튼</string>
     <string name="LoginId">로그인 아이디</string>
     <string name="Input_LoginId">로그인 아이디를 입력하세요.</string>
     <string name="Password">비밀번호</string>
@@ -14,4 +15,5 @@
     <string name="Input_Title">제목을 입력하세요.</string>
     <string name="Input_Content">내용을 입력하세요.</string>
     <string name="Save">저장</string>
+    <string name="refresh">새로고침</string>
 </resources>
