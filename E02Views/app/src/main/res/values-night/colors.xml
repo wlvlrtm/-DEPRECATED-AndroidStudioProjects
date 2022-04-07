@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparentYellow">#FFEB3B</color>
+    <color name="transparentRed">#F44336</color>
+    <color name="transparentBlue">#03A9F4</color>
+</resources>
