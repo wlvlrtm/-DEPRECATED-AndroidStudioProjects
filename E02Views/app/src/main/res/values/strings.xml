@@ -4,6 +4,7 @@
     <string name="action_memo">메모장</string>
     <string name="action_buttons">버튼</string>
     <string name="action_checkboxes">체크박스</string>
+    <string name="action_spinner">Spinners</string>
     <string name="LoginId">로그인 아이디</string>
     <string name="Input_LoginId">로그인 아이디를 입력하세요.</string>
     <string name="Password">비밀번호</string>
@@ -24,4 +25,12 @@
     <string name="Cat">고양이</string>
     <string name="Dog">강아지</string>
     <string name="Owl">부엉이</string>
+    <string name="input_phone">전화번호를 입력하세요.</string>
+    <string name="input_address">주소를 입력하세요.</string>
+    <string-array name="phoneTypes">
+        <item>집전화</item>
+        <item>사무실전화</item>
+        <item>휴대폰</item>
+        <item>기타</item>
+    </string-array>
 </resources>
