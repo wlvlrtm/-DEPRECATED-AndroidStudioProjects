@@ -22,4 +22,7 @@
         android:id="@+id/action_spinner"
         android:title="@string/action_spinner"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_alerts"
+        android:title="@string/action_alerts" />
 </menu>

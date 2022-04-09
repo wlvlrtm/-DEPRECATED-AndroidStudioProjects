@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.E02Veiws">
         <activity
+            android:name=".AlertsActivity"
+            android:exported="false"
+            android:label="@string/action_alerts" />
+        <activity
             android:name=".SpinnerActivity"
             android:exported="false"
             android:label="@string/action_spinner" />
